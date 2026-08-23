@@ -1,39 +1,35 @@
 ---
-date: "2026-08-22"
+date: "2026-08-23"
 tags:
   - type/moc
 ---
 
 # All MOCs — Index
 
-> Master index of all your Maps of Content.
+> Master index of all your Maps of Content. Start here to find what you're looking for.
 
-## Engineering & Development
-- [[MOC - Angular]]
-- [[MOC - Python]]
-- [[MOC - Django & DRF]]
-- [[MOC - System Design]]
-- [[MOC - Full-Stack Architecture]]
+## Knowledge Domains
 
-## AI & Machine Learning
-- [[MOC - AI & LLMs]]
-- [[MOC - Prompt Engineering]]
+> Add sections here as your MOCs grow — group by domain, project area, or however makes sense to you.
 
-## Finance & Investing
-- [[MOC - Investing & Stock Analysis]]
+## How to Use This Index
 
-## Writing & Content
-- [[MOC - Technical Writing]]
-- [[MOC - Medium Articles]]
+1. **Find a topic** — Browse the sections above
+2. **Click a MOC link** — Opens that Map of Content with all related notes
+3. **Explore connections** — Follow wikilinks to dive deeper
+4. **Add new MOCs** — As your knowledge base grows, add new MOCs here
 
-## Databases & Data
-- [[MOC - PostgreSQL]]
-- [[MOC - Apache Airflow]]
-- [[MOC - Data Engineering]]
+## Adding New MOCs
 
-## How to Use
+When you create a new MOC:
+1. Create it in `03-Resources/MOCs/MOC - [Topic].md`
+2. Add a link to it in the appropriate section above
+3. Use the `tpl-moc.md` template from `Templates/`
 
-1. Find a topic → click the MOC link
-2. Follow `[[wikilinks]]` to dive deeper
-3. Create new MOCs using `tpl-moc` template
-4. Add new MOCs here as your vault grows
+## Graph View Tip
+
+Open **Obsidian's Graph View** (Cmd/Ctrl + Shift + G) to see this index as a central hub with spokes to each MOC.
+
+---
+
+*Last updated: 2026-08-23*

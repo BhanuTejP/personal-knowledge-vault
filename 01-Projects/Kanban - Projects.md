@@ -10,21 +10,19 @@ tags:
 
 ## Backlog
 
-- [ ] [[obsidian-plugin-sync]]
+- [ ] 
 
 ## In Progress
 
-- [ ] [[client-portal-redesign]]
-- [ ] [[api-rate-limiter]]
+- [ ] 
 
 ## Waiting / Blocked
 
-- [ ] [[api-rate-limiter]] — blocked on infra staging environment
+- [ ] 
 
 ## Done
 
-- [ ] Design tokens locked (client-portal-redesign milestone)
-- [ ] Auth migration shipped (client-portal-redesign milestone)
+- [ ] 
 
 ---
 

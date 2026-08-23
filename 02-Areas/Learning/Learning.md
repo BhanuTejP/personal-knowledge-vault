@@ -18,5 +18,4 @@ tags:
 - 
 
 ## Related MOCs
-- [[MOC - Angular]]
-- [[MOC - Python]]
+- [[]]
