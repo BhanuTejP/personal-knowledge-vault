@@ -1,33 +1,16 @@
-# Personal Knowledge Vault
+# Personal Knowledge Vault — Second Brain
 
 A personal knowledge management system built with [Obsidian](https://obsidian.md), combining **PARA** (Projects, Areas, Resources, Archives) for knowledge organization and **GTD** (Getting Things Done) for task/action management.
 
 ## Demo Data
 
-This vault ships with sample content — a fictional developer's projects, tasks, daily notes, and a completed weekly review — so you can see the system working with real dashboards instead of empty folders. Every demo note has `demo` in its frontmatter tags (visible in Obsidian's tag pane, or searchable with `tag:demo`) and uses fictional names throughout.
+This vault ships with sample content — a fictional developer's projects, tasks, daily notes, and a completed weekly review — so you can see the system working with real dashboards instead of empty folders. Every demo note has `demo` in its frontmatter tags, visible in Obsidian's tag pane.
 
-**To clear it and start fresh:**
-
-```bash
-# Preview what will be deleted
-grep -rl "^  - demo$" --include="*.md" .
-
-# Delete all demo-tagged notes
-grep -rl "^  - demo$" --include="*.md" . | xargs rm
-
-# Also remove the now-empty demo project folders
-rm -rf "01-Projects/client-portal-redesign" "01-Projects/api-rate-limiter" "01-Projects/obsidian-plugin-sync"
-```
-
-Then commit the clean state:
+**Prefer to start blank?** Clone the `clean-start` branch instead — it has the full PARA + GTD structure, dashboards, templates, and plugins, with zero sample content:
 
 ```bash
-git add -A
-git commit -m "vault: clear demo data"
-git push
+git clone -b clean-start https://github.com/BhanuTejP/personal-knowledge-vault.git
 ```
-
-The Kanban board at `01-Projects/Kanban - Projects.md` will still reference the deleted demo projects after cleanup — just delete those card lines manually, or empty the columns back to a blank `- [ ]`.
 
 > **Note:** Demo task due-dates are relative to when this vault was generated, so overdue/due-today items will drift out of sync over time. This is expected — it's sample data to show the dashboards working, not something to keep long-term.
 
