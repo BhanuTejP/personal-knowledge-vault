@@ -1,0 +1,30 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Obsidian workspace/device-specific state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian caches
+.obsidian/cache
+
+# Plugin embedding/index caches
+.smart-connections/
+
+# Trash
+.trash/
+
+# Never commit secrets
+.env
+.env.*
+*.pem
+*.key
+secrets/
+
+# Sync conflict files
+*.sync-conflict-*
+
+# Node (if doing plugin dev)
+node_modules/

@@ -1,0 +1,26 @@
+{
+  "daily": {
+    "enabled": true,
+    "folder": "05-Daily-Notes",
+    "format": "YYYY-MM-DD",
+    "template": "98-Templates/tpl-daily-note"
+  },
+  "weekly": {
+    "enabled": true,
+    "folder": "06-Weekly-Notes",
+    "format": "YYYY-[W]WW",
+    "template": "98-Templates/tpl-weekly-review"
+  },
+  "monthly": {
+    "enabled": true,
+    "folder": "07-Monthly-Notes",
+    "format": "YYYY-MM",
+    "template": "98-Templates/tpl-monthly-review"
+  },
+  "yearly": {
+    "enabled": true,
+    "folder": "08-Yearly-Notes",
+    "format": "YYYY",
+    "template": "98-Templates/tpl-yearly-review"
+  }
+}
