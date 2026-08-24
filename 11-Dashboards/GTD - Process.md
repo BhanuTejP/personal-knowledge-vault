@@ -69,7 +69,7 @@ SORT file.name ASC
 
 ```dataview
 TASK
-WHERE status.symbol = "w"
+WHERE status = "w"
   AND !completed
 SORT file.name ASC
 ```

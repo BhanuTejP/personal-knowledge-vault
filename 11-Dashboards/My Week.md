@@ -23,7 +23,7 @@ GROUP BY due
 
 ```dataview
 TASK
-WHERE status.symbol = "/"
+WHERE status = "/"
   AND !completed
 SORT file.name ASC
 ```
