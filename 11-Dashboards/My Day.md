@@ -39,6 +39,15 @@ WHERE !completed
 SORT due ASC
 ```
 
+## 📓 From Today's Note
+> Any open task written in today's daily note, due date or not.
+
+```dataview
+TASK
+FROM "05-Daily-Notes"
+WHERE !completed AND file.day = date(today)
+```
+
 ## Waiting For
 
 ```dataview

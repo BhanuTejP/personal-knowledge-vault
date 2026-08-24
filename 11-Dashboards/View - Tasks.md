@@ -64,6 +64,16 @@ WHERE !completed
 SORT file.name ASC
 ```
 
+## 📋 No Due Date (All)
+> Catch-all: any open task without a due date, regardless of priority or context.
+
+```dataview
+TASK
+WHERE !completed
+  AND due = null
+SORT file.name ASC
+```
+
 ## Someday / Maybe
 
 ```dataview
