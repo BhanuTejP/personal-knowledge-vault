@@ -8,7 +8,7 @@ tags:
 - 
 
 ## Today's Focus
-> What are the 1–3 most important things to accomplish today?
+> What are the 1–3 most important things to accomplish today? Write them in your own words — this isn't tracked, it's just to set direction.
 
 1. 
 2. 
