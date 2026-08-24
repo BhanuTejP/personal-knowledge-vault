@@ -19,6 +19,18 @@ SORT due ASC
 GROUP BY due
 ```
 
+## ⏳ Scheduled This Week
+> Tasks with a scheduled (start) date this week, whether or not they have a due date.
+
+```dataview
+TASK
+WHERE !completed
+  AND scheduled >= date(today) - dur(date(today).weekday + "days")
+  AND scheduled < date(today) - dur(date(today).weekday + "days") + dur("7 days")
+  AND scheduled != null
+SORT scheduled ASC
+```
+
 ## In Progress
 
 ```dataview
