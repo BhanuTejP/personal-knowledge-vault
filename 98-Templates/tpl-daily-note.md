@@ -4,8 +4,6 @@ tags:
   - type/daily
 ---
 
-# {{date}}
-
 ## Gratitude
 - 
 
