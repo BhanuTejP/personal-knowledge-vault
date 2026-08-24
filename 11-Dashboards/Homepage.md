@@ -57,7 +57,7 @@ SORT due ASC
 TASK
 WHERE !completed
   AND due = date(today)
-SORT priority DESC
+SORT choice(contains(text, "⏫"), 1, choice(contains(text, "🔼"), 2, choice(contains(text, "🔽"), 3, 4))) ASC
 ```
 
 ## 📓 From Today's Note
