@@ -17,7 +17,7 @@ tags:
 TASK
 WHERE !completed
   AND due = date(today)
-SORT priority DESC
+SORT choice(contains(text, "⏫"), 1, choice(contains(text, "🔼"), 2, choice(contains(text, "🔽"), 3, 4))) ASC
 ```
 
 ## Tasks Scheduled for Today
@@ -26,7 +26,7 @@ SORT priority DESC
 TASK
 WHERE !completed
   AND scheduled = date(today)
-SORT priority DESC
+SORT choice(contains(text, "⏫"), 1, choice(contains(text, "🔼"), 2, choice(contains(text, "🔽"), 3, 4))) ASC
 ```
 
 ## Overdue Tasks
