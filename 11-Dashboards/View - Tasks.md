@@ -40,7 +40,7 @@ SORT due ASC
 
 ```dataview
 TASK
-WHERE status.symbol = "/"
+WHERE status = "/"
   AND !completed
 SORT file.name ASC
 ```
@@ -49,7 +49,7 @@ SORT file.name ASC
 
 ```dataview
 TASK
-WHERE status.symbol = "w"
+WHERE status = "w"
   AND !completed
 SORT file.name ASC
 ```
@@ -69,7 +69,7 @@ SORT file.name ASC
 ```dataview
 TASK
 WHERE !completed
-  AND contains(tags, "someday")
+  AND contains(tags, "#someday")
 SORT file.name ASC
 ```
 
@@ -78,35 +78,35 @@ SORT file.name ASC
 ### 💻 Computer
 ```dataview
 TASK
-WHERE !completed AND contains(tags, "context/computer")
+WHERE !completed AND contains(tags, "#context/computer")
 SORT due ASC
 ```
 
 ### 📱 Phone
 ```dataview
 TASK
-WHERE !completed AND contains(tags, "context/phone")
+WHERE !completed AND contains(tags, "#context/phone")
 SORT due ASC
 ```
 
 ### 🏢 Office
 ```dataview
 TASK
-WHERE !completed AND contains(tags, "context/office")
+WHERE !completed AND contains(tags, "#context/office")
 SORT due ASC
 ```
 
 ### 🏠 Home
 ```dataview
 TASK
-WHERE !completed AND contains(tags, "context/home")
+WHERE !completed AND contains(tags, "#context/home")
 SORT due ASC
 ```
 
 ### 🛒 Errand
 ```dataview
 TASK
-WHERE !completed AND contains(tags, "context/errand")
+WHERE !completed AND contains(tags, "#context/errand")
 SORT due ASC
 ```
 

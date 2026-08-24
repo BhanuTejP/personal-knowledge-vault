@@ -1,26 +1,44 @@
 {
-  "daily": {
-    "enabled": true,
-    "folder": "05-Daily-Notes",
-    "format": "YYYY-MM-DD",
-    "template": "98-Templates/tpl-daily-note"
-  },
-  "weekly": {
-    "enabled": true,
-    "folder": "06-Weekly-Notes",
-    "format": "YYYY-[W]WW",
-    "template": "98-Templates/tpl-weekly-review"
-  },
-  "monthly": {
-    "enabled": true,
-    "folder": "07-Monthly-Notes",
-    "format": "YYYY-MM",
-    "template": "98-Templates/tpl-monthly-review"
-  },
-  "yearly": {
-    "enabled": true,
-    "folder": "08-Yearly-Notes",
-    "format": "YYYY",
-    "template": "98-Templates/tpl-yearly-review"
-  }
+  "showGettingStartedBanner": false,
+  "hasMigratedDailyNoteSettings": true,
+  "hasMigratedWeeklyNoteSettings": true,
+  "installedVersion": "1.0.0-beta3",
+  "activeCalendarSet": "Default",
+  "calendarSets": [
+    {
+      "id": "Default",
+      "ctime": "2026-08-23T00:00:00.000Z",
+      "day": {
+        "enabled": true,
+        "openAtStartup": false,
+        "format": "YYYY-MM-DD",
+        "folder": "05-Daily-Notes",
+        "templatePath": "98-Templates/tpl-daily-note.md"
+      },
+      "week": {
+        "enabled": true,
+        "openAtStartup": false,
+        "format": "YYYY-[W]WW",
+        "folder": "06-Weekly-Notes",
+        "templatePath": "98-Templates/tpl-weekly-review.md"
+      },
+      "month": {
+        "enabled": true,
+        "openAtStartup": false,
+        "format": "YYYY-MM",
+        "folder": "07-Monthly-Notes",
+        "templatePath": "98-Templates/tpl-monthly-review.md"
+      },
+      "year": {
+        "enabled": true,
+        "openAtStartup": false,
+        "format": "YYYY",
+        "folder": "08-Yearly-Notes",
+        "templatePath": "98-Templates/tpl-yearly-review.md"
+      }
+    }
+  ],
+  "enableTimelineComplication": true,
+  "localeOverride": "system-default",
+  "weekStart": "locale"
 }

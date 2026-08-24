@@ -1,4 +1,5 @@
 ---
+kanban-plugin: basic
 tags:
   - type/dashboard
 ---

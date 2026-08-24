@@ -92,15 +92,15 @@ SORT file.name ASC
 
 ### 💻 Computer
 ```dataview
-TASK WHERE !completed AND contains(tags, "context/computer")
+TASK WHERE !completed AND contains(tags, "#context/computer")
 ```
 
 ### 📱 Phone
 ```dataview
-TASK WHERE !completed AND contains(tags, "context/phone")
+TASK WHERE !completed AND contains(tags, "#context/phone")
 ```
 
 ### 🏢 Office
 ```dataview
-TASK WHERE !completed AND contains(tags, "context/office")
+TASK WHERE !completed AND contains(tags, "#context/office")
 ```
