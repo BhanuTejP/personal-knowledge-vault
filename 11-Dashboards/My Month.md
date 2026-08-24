@@ -38,6 +38,18 @@ WHERE !completed
 SORT due ASC
 ```
 
+## ⏳ Scheduled This Month
+> Tasks with a scheduled (start) date this month, whether or not they have a due date.
+
+```dataview
+TASK
+WHERE !completed
+  AND scheduled != null
+  AND scheduled.month = date(today).month
+  AND scheduled.year = date(today).year
+SORT scheduled ASC
+```
+
 ## Monthly Review
 
 > Go to `07-Monthly-Notes/` for your monthly reviews.
