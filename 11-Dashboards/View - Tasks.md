@@ -36,6 +36,27 @@ WHERE !completed
 SORT due ASC
 ```
 
+## ⏳ Scheduled Today
+> Tasks with a scheduled (start) date of today, whether or not they have a due date.
+
+```dataview
+TASK
+WHERE !completed
+  AND scheduled = date(today)
+SORT file.name ASC
+```
+
+## ⏳ Scheduled This Week
+> Tasks with a scheduled (start) date within the next 7 days, whether or not they have a due date.
+
+```dataview
+TASK
+WHERE !completed
+  AND scheduled > date(today)
+  AND scheduled <= date(today) + dur("7 days")
+SORT scheduled ASC
+```
+
 ## In Progress
 
 ```dataview
