@@ -49,6 +49,8 @@ personal-knowledge-vault/
 └── .obsidian/             → Obsidian configuration
 ```
 
+> **Linking to a project:** Every project's main file is named `Overview.md`, so a plain link like `[[client-portal-redesign]]` won't resolve — there's no file with that exact name. Link to the real file with a pipe alias instead: `[[01-Projects/client-portal-redesign/Overview|client-portal-redesign]]`. Type `[[`, start typing the folder name, pick the file Obsidian's autocomplete finds, then add `|ProjectName` after it so the link displays cleanly instead of showing "Overview."
+
 ## GTD Workflow
 
 ```
